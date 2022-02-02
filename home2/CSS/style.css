@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "simpsons_font";
+    src: url("s_font.ttf");
+    font-weight: normal;    
+    font-style: normal
+}
+
+body {
+    margin: 0;
+    background-color: #f6c1d2;
+    transition: all 0.9s ease;
+}
+
+#menuLateral {
+    position: relative;
+    width: 200px;
+    min-height:550px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space:nowrap;
+    margin:8px 0 0 8px;
+    z-index: 0;
+    background-color: #a7cf46;
+    border: #000 solid 2px;
+    overflow:hidden;
+}
+
+#menuLateral > a{
+    position: absolute;
+    width: 76%;
+    top:0%;
+    height: 32%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+} 
+
+#mlItem1 {
+    font-family: 'Besley', serif;
+    font-size: 104px;
+    line-height: 62px;
+    transform: rotate(-13deg);
+}
+
+#mlItem1:hover{
+    color:rgb(72,34, 158);
+}
+
+#mlItem1 span{
+    font-family: 'Besley', serif;
+    font-size:57px;
+    transform: rotate(-13deg); 
+}
+
+#perfil {
+    position: absolute;
+    width: 70%;
+    top:70%;
+    left:14%;
+    border: 2px solid black;
+}
+
+article{
+    display:inline-grid;
+    margin-left: 270px;
+    margin-bottom: 0;
+}
+article > a {
+    float:left;
+    color: rgb(7, 5, 5);
+    font-size: 96px;
+    font-family: 'Besley', serif;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+article > a:hover{
+    color: rgb(72, 34, 158); 
+    text-shadow: 3px 3px 2px rgb(185, 185, 185);
+} 
+
+img {
+    width: 24%;
+    float: right;
+    margin-right: 100px;
+}
+
+#next_page {
+    width: 98%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 5px 0 0 10px;
+    background-color: transparent;    
+}
+    
+#next_page > a {
+    text-decoration: none;
+    margin: 0;
+    font-family: "simpsons_font";
+    font-size: 20px;
+    color:blue;
+}
+    
+    
+#next_page > a:hover {
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+    
+    

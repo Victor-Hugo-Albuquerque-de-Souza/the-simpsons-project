@@ -1,0 +1,195 @@
+<!doctype HTML>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Besley:wght@800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <title>Mayor Quimby is suspected to have pools at the back of his office!</title>
+        <script src="script.js" defer></script>
+
+    </head>
+
+    <body>
+
+            <div id="menuLateral">
+                <a href="../index.html" target="_self">
+                    <p id="mlItem1"><span>Mr.</span><br>X</p>
+                </a>    
+                <img id="perfil" src="imgs/mr. X picture.jpg" alt="perfil_senhor_xis">
+            </div>
+
+            <nav>
+                    <a href="../index.html">News</a> 
+                    <a href="../index.html">Politics</a>
+                    <a href="../index.html">Springfield Isotopes</a>
+                    <a href="../index.html">Entertainement</a>
+                    <a href="../index.html">Mobile</a>
+            </nav>
+
+            <div id="redesSociais">
+                <a href="https://twitter.com/intent/tweet?url=[https://www.fox.com/the-simpsons/]&text=[My bagels are nothing but old donuts, says Apu]&via=[vhalbuquerque]&hashtags=[ApuLiar, SpoiledBagels]" target="_blank"><img src="imgs/twitter.png" alt="twitter"></a>
+                <a href="http://instagram.com" target="_blank"><img src="imgs/instagram.png" alt="instagram"></a>
+                <a href="https://api.whatsapp.com/send?text=[My bagels are nothing but week-old doughnuts, says Apu Nahasapeemapetilon]" target="_blank"><img src="imgs/wsapp.png" alt="whatsapp"></a>
+            </div>
+
+            <article id="sct1">
+                <h1> Mayor Quimby is guilty for having constructed a gigantic pool</h1>
+                <h3>The scoundrel has used Springfield citizens' money for his own benefits.</h3>
+                <p>Sprinfield Mayor, 'Diamond' Joe Quimby (Republicans) is allegedly pointed as the responsible for building an
+                    olympic sized pool at the back of his own office, according to Nelson Muntz (or Jimbo Jones), local bully
+                    boy. The money, firstly approved to fix the holes of downtown streets, was embezzled by the mayor that, 
+                    instead of it, thought it would be better invested in a heated pool for his office. <br>This blog has 
+                    asked Quimby for explanations and he stated that he had never heard about such thing. One of the reporters
+                    present in the moment, took a peek through a door beside the mayor's cabinet and discovered a luxury pool 
+                    with dozens of ladies in swimming suits. Furthermore, there were city hall employees fixing up a fountain 
+                    using pothole cement.<br> Once the pool was found out, Diamond 'the scoundrel' Joe Quimby dared to say that 
+                    that was an ancient ruin that had just been discovered, but just a few seconds later, he admitted guilty. 
+                    Take a look on the following
+                    pics:     
+                </p>            
+            </article>
+
+            <div id="adv_banner">
+                <a href="#"><img class="bannerImg" id="adv_pic0"></a>
+                <a href="#"><img class="bannerImg" id="adv_pic1"></a>
+                <a href="#"><img class="bannerImg" id="adv_pic2"></a>
+            </div>
+
+            <br><br> <br> 
+
+            <section class="sShowContainer">
+
+                <div class="dvSlide slideAtivo">
+                    <div class="slideNumero">1/3</div>
+                    <img src="pic1.png" alt="sem-vergonhice">
+                    <div class="legendaFoto">Ladies in swimming suit</div>
+                </div>
+
+                <div class="dvSlide">
+                    <div class="slideNumero">2/3</div>
+                    <img src="pic2.png" alt="piscina">
+                    <div class="legendaFoto">City workers spending all pot hole cement to fix the fountain</div>
+                </div>
+                 
+                <div class="dvSlide">
+                    <div class="slideNumero">3/3</div>
+                    <img src="pic3.png" alt="prefeito">
+                    <div class="legendaFoto">Quimby had been asked about the rumour</div>
+                </div>
+
+                <div id="marcadores" >
+                    <div class="base mAtivo " onclick="mudaViaMarc(0)"></div>
+                    <div class="base" onclick="mudaViaMarc(1)"></div>
+                    <div class="base"  onclick="mudaViaMarc(2)"></div>
+                </div>
+
+                <div id="passadores">
+                    <div class="btn_" onclick="mudaSlide(-1)">&lt;</div>
+                    <div class="btn_" onclick="mudaSlide(1)">&gt;</div>
+                </div>
+                
+            </section> 
+
+            <article id="caixaComentario">
+
+                <h2 class="expansor" onclick="showComments()" id="expansor">Show comments:</h2>
+
+                <div id="commentsSection" style="max-height:0px;">
+
+                    <div class="commentUnit" style="max-height: 200px; display:none;" id="i0">
+                        <h5><span class="nickname">Some_Anonimous_klown</span> says:</h5> 
+                        <section class="commentArea">
+                            There is no emoticon for what I am feeling right now!
+                        </section>
+                        <div class="ShowReplies_Btn" id="i_reply1" onclick="showResponses(this.id)"></div>
+                        <div class="painelBtns" id="bt1">
+                            <img src="imgs/like.png" alt="botao_de_like" id="likeBtn1" onclick="curtir(this.id)">0
+                            <img src="imgs/dislike.png" alt="botao_de_dislike" id="dislikeBtn1" onclick="descurtir(this.id)" >0
+                            <img src="imgs/reply.png" alt="botao_de_reply" onclick="comentarInicio(this.parentElement.id)">
+                        </div>
+                        <hr>
+                    </div>
+                    
+                    <div class="commentUnit" id="i1" style="max-height: 200px; display:none;" >
+                        <h5><span class="nickname">SgtSkInNeR</span> says:</h5>
+                        <section class="commentArea">
+                           Our Mayor is corrupt? Well, Mr.X has done this town a great service - despite his poor grammar and spelling..  
+                        </section>
+                        <div class="ShowReplies_Btn" onclick="showResponses(this.id)"  id="i_reply2"></div>
+                        <div class="painelBtns" id="bt2">
+                            <img src="imgs/like.png" alt="botao_de_like" id="likeBtn2" onclick="curtir(this.id)">0
+                            <img src="imgs/dislike.png" alt="botao_de_dislike" id="dislikeBtn2" onclick="descurtir(this.id)">0
+                            <img src="imgs/reply.png" alt="botao_de_reply" onclick="comentarInicio(this.parentElement.id)">
+                        </div>
+                        
+                        <div class="commentUnit" id="i2" style="max-height: 200px; display:none">
+                            <h5 class="alnhaRESP"><span class="nickname">Agnes Skinner</span> answered to <span class="nickname">SgtSkInNeR</span> </h5>
+                            <section class="areaResposta alnhaRESP">
+                                Seymour, are you seeing naked lady pictures?                           
+                            </section>
+                            <div class="ShowReplies_Btn" onclick="showResponses(this.id)" id="i_reply3"></div>
+                            <div class="painelBtns alnhaRESP" id="bt3">
+                                <img src="imgs/like.png" alt="botao_de_like" id="likeBtn3" onclick="curtir(this.id)">0
+                                <img src="imgs/dislike.png" alt="botao_de_dislike" id="dislikeBtn3" onclick="descurtir(this.id)">0
+                                <img src="imgs/reply.png" alt="botao_de_reply" onclick="comentarInicio(this.parentElement.id)">
+                            </div>
+                            <hr style="visibility:hidden;">
+                            <div class="commentUnit" id="i3" style="max-height: 200px; display: none">
+                                <h5 class="alnhaRESP"><span class="nickname">SgtSkInNeR</span> answered to <span class="nickname">Agnes Skinner</span></h5>                           
+                                <section class="areaResposta alnhaRESP">
+                                    No, mom.                                       
+                                </section>
+                                <div class="ShowReplies_Btn" onclick="showResponses(this.id)" id="i_reply4"></div>
+                                <div class="painelBtns alnhaRESP" id="bt4">
+                                    <img src="imgs/like.png" alt="botao_de_like" id="likeBtn4" onclick="curtir(this.id)">0
+                                    <img src="imgs/dislike.png" alt="botao_de_dislike" id="dislikeBtn4" onclick="descurtir(this.id)">0
+                                    <img src="imgs/reply.png" alt="botao_de_reply" onclick="comentarInicio(this.parentElement.id)">
+                                </div>
+                                <hr style="visibility:hidden;">
+                                <div class="commentUnit" id="i4" style="max-height: 200px; display: none">
+                                    <h5 class="alnhaRESP"><span class="nickname">Agnes Skinner</span> answered to<span class="nickname">SgtSkInNeR</span></h5>                                
+                                    <section class="areaResposta alnhaRESP"> 
+                                        You sissy!                                               
+                                    </section>
+                                    <div class="ShowReplies_Btn" onclick="showResponses(this.id)" id="i_reply5"></div>
+                                    <div class="painelBtns alnhaRESP" id="bt5">
+                                        <img src="imgs/like.png" alt="botao_de_like" id="likeBtn5" onclick="curtir(this.id)">0
+                                        <img src="imgs/dislike.png" alt="botao_de_dislike" id="dislikeBtn5" onclick="descurtir(this.id)">0
+                                        <img src="imgs/reply.png" alt="botao_de_reply" onclick="comentarInicio(this.parentElement.id)">
+                                    </div>
+                                    <hr style="visibility:hidden;">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>                                                                                                         
+                    </div>
+                </div>
+                    <label class="alinhaRESP" style="position: relative; display:block;">Comentar:</label>
+                    <textarea id="areaComment" type="text" name="f_comentario" size="200" style="display:block;" maxlength="180" placeholder="Enter up to 150 characters"></textarea>
+                    <button class="alinhaResp" type="submit" onclick="comentarGeral()">Enviar</button>                    
+        </article>
+
+        <h2 class="breakLine">Latest Stories:</h2>
+
+        <article id="latest">
+                <a href="../news2/index.html"><img src="../news2/imgs/pic1.png" alt="ultimas_noticias"></a>
+                <div>
+                    <a href="../news2/index.html"><h4>KWIK-E-MART HAS BEEN SELLING EXPIRED BAGELS SINCE 1989</h4>
+                    <p>You probably have eaten some fungi and dirty in your life as a costumer of Mr. Nahasapeemapetilon's grocery store.</p></a>
+                </div>
+        </article>
+
+    <footer>@vsouza988 2021</footer>
+        
+    </body>
+
+</html>

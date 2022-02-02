@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "simpsons_font";
+    src: url("s_font.ttf");
+    font-weight: normal;    
+    font-style: normal
+}
+
+body {
+    margin: 0;
+    background-color: #b9a8a9;
+    transition: all 0.9s ease;
+}
+
+#menuLateral {
+    position: relative;
+    width: 200px;
+    min-height:550px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space:nowrap;
+    margin-left: 8px;
+    z-index: 0;
+    background-color: #cdc3cd;
+    border: #000 solid 2px;
+    overflow:hidden;
+}
+
+#menuLateral > a{
+    position: absolute;
+    width: 76%;
+    top:0%;
+    height: 32%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+} 
+
+#mlItem1 {
+    font-family: 'Besley', serif;
+    font-size: 104px;
+    line-height: 62px;
+    transform: rotate(-13deg);
+}
+
+#mlItem1:hover{
+    color:rgb(72,34, 158);
+}
+
+#mlItem1 span{
+    font-family: 'Besley', serif;
+    font-size:57px;
+    transform: rotate(-13deg); 
+}
+
+#perfil {
+    position: absolute;
+    width: 70%;
+    top:70%;
+    border: 2px solid black;
+}
+
+#upper_banner {
+    position:relative;
+    left:-0.12%;
+	width: 1000px;
+	height: 188px;
+    margin-top: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    z-index: 1;
+	background-color: #cdc3cd;
+	color: #0644bf;
+	border: #000 solid 2px;
+    border-left: none;
+	font-family: 'Besley', serif;
+	font-size: 56px;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000;
+}
+
+article {
+    width: 900px;
+    height: 284px;
+    margin:30px 30px 0 30px;
+    display: inline-grid;
+    justify-items: center;
+    overflow:hidden;
+    background-color: #7ebb77;
+    border:2px solid #000;  
+}
+
+article > a {
+    color: black;
+    font-size: 85px;
+    font-family: 'Besley', serif;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+article > a:hover{
+    color: rgb(72,34, 158);
+    text-shadow: 3px 3px 2px rgb(185, 185, 185);
+}
+
+#next_page {
+        width: 98%;
+        display: inline-flex;
+        justify-content:right;
+        float:right;
+        background-color: transparent;    
+    }
+
+#next_page > a {
+    color:blue;
+    font-family: "simpsons_font";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#next_page > a:hover {
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+
+
+
