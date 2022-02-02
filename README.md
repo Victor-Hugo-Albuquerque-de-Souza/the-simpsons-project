@@ -1,5 +1,7 @@
 # The simpsons project
 
+Link to the page: [https://victor-hugo-albuquerque-de-souza.github.io/the-simpsons-project/](https://victor-hugo-albuquerque-de-souza.github.io/the-simpsons-project/)
+
 This project aims to create a perfect clone from the website shown at The Simpsons, in its season 12 episode 06 - which is called "The computer wore Menace Shoes". At the show, Homer Simpson becomes a journalist and starts publishing very suspicious histories. The main goal of my project is not only to create an layout identical page, but to play as if the news were real and they were published at a regular news portal of our world. 
 I have created an ads banner system, in which the images are randomly loaded and do not repeat. I also have made a slideshow with markups and buttons to pass the images. At the bottom of the page, there is a comment posting system, were the user can like, dislike, reply or even create a new message. 
 The Quimby's new's comment system is still to be finished, but the Apu's new's is ready to be assessed. 
